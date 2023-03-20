@@ -6,16 +6,16 @@ db.createCollection("mentors");
 db.createCollection("company_drives");
 
 db.users.insertMany([
-  { userid: 1, name: "Santhosh", email: "JvZen@gmail.com" },
-  { userid: 2, name: "Jai", email: "SanthoshZen@gmail.com" },
-  { userid: 3, name: "Arun", email: "ArunZen@gmail.com" },
-  { userid: 4, name: "Javith", email: "MohammedZen@gmail.com" },
+  { userid: 1, name: "Santhosh", email: "santhosh@gmail.com" },
+  { userid: 2, name: "Jai", email: "jai@gmail.com" },
+  { userid: 3, name: "Arun", email: "Arun@gmail.com" },
+  { userid: 4, name: "Javith", email: "javith@gmail.com" },
 ]);
 
 db.mentors.insertMany([
-  { mentorid: 1, name: "Sanjay", email: "SanjayMentor@gmail.com", mentees: 40 },
-  { mentorid: 2, name: "Gopi", email: "AkbarMentor@gmail.com", mentees: 34 },
-  { mentorid: 3, name: "Suthagaran", email: "RupanMentor@gmail.com", mentees: 52 },
+  { mentorid: 1, name: "Sanjay", email: "Sanjay@gmail.com", mentees: 40 },
+  { mentorid: 2, name: "Gopi", email: "gopi@gmail.com", mentees: 34 },
+  { mentorid: 3, name: "Suthakaran", email: "suthakaran@gmail.com", mentees: 52 },
 ]);
 
 db.topics.insertMany([
